@@ -181,8 +181,7 @@ body {
   border-radius: 1px;
   width: 360px;
   height: 420px;
-  top: 1980px;
-  left: 156px;
+  margin-left: 156px;
   border-width: 0px, 1px, 1px, 1px;
   border-style: solid;
   border-color: #e7e9fc;
@@ -216,7 +215,9 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
-  top: 2988px;
+  padding-left: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .page-footer .page-logo-title2 {
@@ -230,8 +231,6 @@ body {
   letter-spacing: -2%;
   width: 264px;
   height: 72px;
-  top: 3128px;
-  left: 156px;
 }
 
 
