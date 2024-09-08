@@ -197,6 +197,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: -2%;
+  height: 24px;
 }
 
 .fourth-section p {
@@ -204,6 +205,7 @@ body {
   line-height: 1.5;
   letter-spacing: -2%;
   color: #434455;
+  height: 24px;
 }
 
 .page-footer {
@@ -325,7 +327,6 @@ header {
   display: flex;
   width: 1128px;
   height: 420px;
-
   margin-bottom: 48px;
 }
 
@@ -333,7 +334,6 @@ header {
   display: flex;
   width: 1128px;
   height: 420px;
-
   margin-bottom: 120px;
 }
 
@@ -352,3 +352,15 @@ header {
   margin-right: 156px;
   margin-top: 120px;
 }
+
+.portfolios {
+  width: 360px;
+  height: 120px;
+  text-align: left;
+  padding-top: 16px;
+  padding-left: 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
