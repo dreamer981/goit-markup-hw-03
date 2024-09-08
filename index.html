@@ -18,45 +18,45 @@
   </head>
   <body>
     <header>
-        <div class="page-menu">
-      <a
-        class="page-logo-title1"
-        href="https://dreamer981.github.io/goit-markup-hw-02/"
-        taget="_self"
-      >
-        WEB
-      </a>
-      <a
-        class="page-logo-title2"
-        href="https://dreamer981.github.io/goit-markup-hw-02/"
-        taget="_self"
-      >
-        STUDIO
-      </a>
-      <nav>
-        <ul class="page-menu-list">
-          <li>
-            <a href="#">Studio</a>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="page-adress-list">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com </a>
-          </li>
-          <li>
-            <a href="tel:+110001111111">11 (000) 111-11-11 </a>
-          </li>
-        </ul>
-      </address>
-</div>
+      <div class="page-menu">
+        <a
+          class="page-logo-title1"
+          href="https://dreamer981.github.io/goit-markup-hw-02/"
+          taget="_self"
+        >
+          WEB
+        </a>
+        <a
+          class="page-logo-title2"
+          href="https://dreamer981.github.io/goit-markup-hw-02/"
+          taget="_self"
+        >
+          STUDIO
+        </a>
+        <nav>
+          <ul class="page-menu-list">
+            <li class="studio">
+              <a href="#">Studio</a>
+            </li>
+            <li class="portfolio">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="contacts">
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="page-adress-list">
+            <li class="mail">
+              <a href="mailto:info@devstudio.com">info@devstudio.com </a>
+            </li>
+            <li class="tel">
+              <a href="tel:+110001111111">11 (000) 111-11-11 </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="first-section">
@@ -65,7 +65,7 @@
       </section>
       <section class="second-section">
         <ul class="second-section-list">
-          <li>
+          <li class="strategy">
             <h3>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
@@ -73,7 +73,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="punctuality">
             <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
@@ -81,7 +81,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="diligence">
             <h3>Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
@@ -89,7 +89,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="technologies">
             <h3>Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
@@ -101,50 +101,60 @@
       <section class="third-section">
         <h2>Our Team</h2>
         <ul class="our-team">
-          <li>
-            <img
-              src="images/mark.jpg"
-              width="264px"
-              alt="Mark Guerrero's photo"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="images/tom.jpg" width="264px" alt="Tom Ford's photo" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="images/camila.jpg"
-              width="264px"
-              alt="Camila Garcia's photo"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/daniel.jpg"
-              width="264px"
-              alt="Dabiel Wilson's photo"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
+          <div class="mark-guerrero">
+            <li>
+              <img
+                src="images/mark.jpg"
+                width="264px"
+                alt="Mark Guerrero's photo"
+              />
+              <h3>Mark Guerrero</h3>
+              <p>Product Designer</p>
+            </li>
+          </div>
+          <div class="tom-ford">
+            <li>
+              <img src="images/tom.jpg" width="264px" alt="Tom Ford's photo" />
+              <h3>Tom Ford</h3>
+              <p>Frontend Developer</p>
+            </li>
+          </div>
+          <div class="camila-garcia">
+            <li>
+              <img
+                src="images/camila.jpg"
+                width="264px"
+                alt="Camila Garcia's photo"
+              />
+              <h3>Camila Garcia</h3>
+              <p>Marketing</p>
+            </li>
+          </div>
+          <div class="daniel-wilson">
+            <li>
+              <img
+                src="images/daniel.jpg"
+                width="264px"
+                alt="Daniel Wilson's photo"
+              />
+              <h3>Daniel Wilson</h3>
+              <p>UI Designer</p>
+            </li>
+          </div>
         </ul>
       </section>
 
       <section class="fourth-section">
         <h2>Our Portfolio</h2>
+        <div class="our-portfolio">
         <ul>
+          <div class="portfolio1">
           <li>
             <img src="images/banking.jpg" width="360px" alt="Banking App" />
             <h3>Banking App</h3>
             <p>App</p>
           </li>
-          <li>
+          <li class="payment">
             <img
               src="images/cashless.jpg"
               width="360px"
@@ -162,12 +172,14 @@
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
+        </div>
+        <div class="portfolio2">
           <li>
             <img src="images/taxi.jpg" width="360px" alt="Taxi Service" />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="screen">
             <img
               src="images/screen.jpg"
               width="360px"
@@ -181,7 +193,9 @@
             <h3>Online Courses</h3>
             <p>Marketing</p>
           </li>
+        </div>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="page-footer">
