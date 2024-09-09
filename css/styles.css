@@ -331,6 +331,7 @@ header {
   width: 1128px;
   height: 420px;
   margin-bottom: 48px;
+  justify-content: space-between;
 }
 
 .portfolio2 {
@@ -338,8 +339,9 @@ header {
   width: 1128px;
   height: 420px;
   margin-bottom: 120px;
+  justify-content: space-between;
 }
-
+/*
 .payment {
   margin-left: 24px;
   margin-right: 24px;
@@ -349,7 +351,7 @@ header {
   margin-left: 24px;
   margin-right: 24px;
 }
-
+*/
 .fourth-section {
   margin-left: 120px;
   margin-right: 156px;
