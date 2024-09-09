@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -96,6 +101,7 @@ body {
   border-radius: 4px;
   border: none;
   gap: 10px;
+  margin-top: 48px;
 }
 
 .first-section button:hover {
@@ -126,6 +132,7 @@ body {
   line-height: 1.5;
   letter-spacing: -2%;
   color: #434455;
+  margin-top: 8px;
 }
 
 .third-section {
@@ -162,6 +169,7 @@ body {
   letter-spacing: -2%;
   text-align: center;
   color: #2e2f42;
+  margin-top: 24px;
 }
 
 .third-section p {
@@ -189,6 +197,7 @@ body {
   line-height: 2.5;
   letter-spacing: -2%;
   text-align: center;
+  margin-bottom: 28px;
 }
 
 .fourth-section h3 {
@@ -198,6 +207,7 @@ body {
   line-height: 1.5;
   letter-spacing: -2%;
   height: 24px;
+  margin-top: 8px;
 }
 
 .fourth-section p {
@@ -206,6 +216,7 @@ body {
   letter-spacing: -2%;
   color: #434455;
   height: 24px;
+  margin-top: 8px;
 }
 
 .page-footer {
@@ -239,7 +250,6 @@ header {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-
 }
 
 .page-menu-list {
@@ -285,7 +295,6 @@ header {
   justify-content: space-around;
 }
 
-
 .portfolio1 {
   display: flex;
   width: 1128px;
@@ -312,12 +321,14 @@ header {
   text-align: left;
   padding-top: 16px;
   padding-left: 16px;
+}
+
+.our-portfolio li {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-top: none;
 }
-
 .container {
   width: 1158px;
   align-items: center;
