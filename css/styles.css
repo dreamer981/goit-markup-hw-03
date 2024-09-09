@@ -211,7 +211,6 @@ body {
 .page-footer {
   background-color: #2e2f42;
   height: 312px;
-  padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -238,9 +237,9 @@ header {
 .page-menu {
   display: flex;
   align-items: center;
-  padding-left: 115px;
   padding-top: 24px;
   padding-bottom: 24px;
+
 }
 
 .page-menu-list {
@@ -248,28 +247,14 @@ header {
   width: 261px;
   height: 24px;
   margin-left: 76px;
-}
-
-.studio {
-  flex-grow: 1;
-  text-align: start;
-}
-.portfolio {
-  flex-grow: 2;
-  text-align: center;
-}
-.contacts {
-  flex-grow: 1;
-  text-align: end;
+  justify-content: space-between;
 }
 
 .page-adress-list {
   display: flex;
-  margin-right: 156px;
 }
-
 .mail {
-  margin-left: 332px;
+  margin-left: 330px;
   margin-right: 40px;
 }
 
@@ -283,9 +268,7 @@ header {
 .second-section-list {
   display: flex;
   padding-top: 120px;
-  padding-left: 156px;
   padding-bottom: 120px;
-  padding-right: 156px;
 }
 
 .punctuality {
@@ -299,31 +282,8 @@ header {
 
 .our-team {
   display: flex;
-  align-items: center;
-  margin-left: 156px;
-  margin-right: 156px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-/*
-.mark-guerrero {
-  align-items: center;
-}
-
-.tom-ford {
-  align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.camila-garcia {
-  align-items: center;
-  margin-right: 24px;
-}
-
-.daniel-wilson {
-  align-items: center;
-}
-  */
 
 
 .portfolio1 {
@@ -341,20 +301,8 @@ header {
   margin-bottom: 120px;
   justify-content: space-between;
 }
-/*
-.payment {
-  margin-left: 24px;
-  margin-right: 24px;
-}
 
-.screen {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-*/
 .fourth-section {
-  margin-left: 120px;
-  margin-right: 156px;
   margin-top: 120px;
 }
 
@@ -368,4 +316,11 @@ header {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.container {
+  width: 1158px;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 156px;
 }
