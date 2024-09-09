@@ -300,10 +300,11 @@ header {
 .our-team {
   display: flex;
   align-items: center;
-  margin-left: 120px;
+  margin-left: 156px;
   margin-right: 156px;
+  justify-content: space-between;
 }
-
+/*
 .mark-guerrero {
   align-items: center;
 }
@@ -322,6 +323,8 @@ header {
 .daniel-wilson {
   align-items: center;
 }
+  */
+
 
 .portfolio1 {
   display: flex;
@@ -362,5 +365,5 @@ header {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  border-top: none;
 }
-
