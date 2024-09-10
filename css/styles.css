@@ -332,6 +332,5 @@ header {
 .container {
   width: 1158px;
   align-items: center;
-  margin-left: 120px;
-  margin-right: 156px;
+  margin: 0 auto;
 }
