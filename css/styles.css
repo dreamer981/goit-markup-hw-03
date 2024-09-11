@@ -229,7 +229,7 @@ img {
 }
 
 .team-card {
-  width: calc((100%-72px)/4);
+  width: calc((100% - 72px) / 4);
 }
 
 .third-section li {
@@ -297,7 +297,7 @@ img {
 }
 
 .portfolio-card {
-  width: calc((100%-72px)/4);
+  width: calc((100% - 72px) / 4);
 }
 
 .portfolios {
