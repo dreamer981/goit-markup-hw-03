@@ -1,8 +1,9 @@
-* {
+p, h1, h2, h3, h4, h5, h6, ul {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -111,13 +112,14 @@ section {
 .first-section {
   background-color: #2e2f42;
   height: 600px;
+  padding-top: 188px;
 }
 
-.first-section {
-  padding-left: 0 auto;
-  padding-right: 0 auto;
-  padding-top: 188px;
+.main-title { 
+  display: flex;
+  flex-direction: column;
   align-items: center;
+
 }
 
 .first-section h1 {
