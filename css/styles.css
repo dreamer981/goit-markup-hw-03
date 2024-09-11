@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
+  min-width: 1440px;
 }
 
 .container {
@@ -217,48 +218,57 @@ img {
 
 /* Our Team */
 
-.our-team {
-  display: flex;
-  justify-content: space-around;
-}
-
 .third-section {
   background-color: #f4f4fd;
   height: 732px;
 }
 
-.third-section h2 {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 2.5;
   letter-spacing: -2%;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.our-team {
+  display: flex;
+  gap: 24px;
+}
+
+.team-card {
+  width: calc((100% - 72px) / 4);
 }
 
 .third-section li {
   list-style-type: none;
-  width: 264px;
-  height: 380px;
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
   text-align: center;
+  width: 264px;
+  height: 380px;
 }
 
-.third-section h3 {
+.team-card-content {
+  padding: 32px 0;
+}
+
+.name-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: -2%;
   text-align: center;
   color: #2e2f42;
-  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
-.third-section p {
+.name-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -2%;
@@ -267,33 +277,6 @@ img {
 }
 
 /*our portfolio*/
-
-.portfolio1 {
-  display: flex;
-  width: 1128px;
-  height: 420px;
-  margin-bottom: 48px;
-  justify-content: space-between;
-}
-
-.portfolio2 {
-  display: flex;
-  width: 1128px;
-  height: 420px;
-  justify-content: space-between;
-}
-
-.portfolios {
-  width: 360px;
-  height: 120px;
-  text-align: left;
-  padding-top: 16px;
-  padding-left: 16px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-top: none;
-}
 
 .fourth-section {
   background-color: white;
@@ -305,7 +288,8 @@ img {
   height: 420px;
 }
 
-.fourth-section h2 {
+.portfolio-title {
+  margin-bottom: 72px;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -315,6 +299,27 @@ img {
   margin-bottom: 28px;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-card {
+  width: calc((100% - 72px) / 4);
+}
+
+.portfolios {
+  width: 360px;
+  height: 120px;
+  text-align: left;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .fourth-section h3 {
   color: #2e2f42;
   font-weight: 500;
@@ -322,7 +327,6 @@ img {
   line-height: 1.5;
   letter-spacing: -2%;
   height: 24px;
-  margin-top: 8px;
 }
 
 .fourth-section p {
