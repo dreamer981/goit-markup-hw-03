@@ -131,7 +131,11 @@ img {
   background-color: #2e2f42;
   height: 600px;
   padding: 188px 0;
+  margin: auto;
+  align-items: center;
 }
+
+
 
 /* 
 
@@ -151,7 +155,11 @@ img {
   line-height: 60px;
   letter-spacing: -2%;
   color: #ffffff;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 48px;
   text-align: center;
+  
 }
 
 .order-button {
@@ -166,7 +174,7 @@ img {
   border-radius: 4px;
   border: none;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   cursor: pointer;
 }
 
