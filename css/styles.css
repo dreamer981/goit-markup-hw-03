@@ -48,22 +48,10 @@ img {
   flex-direction: row;
 }
 
-.page-menu-list {
+.nav-menu {
   display: flex;
-  height: 24px;
-  margin-left: 76px;
-  width: 261px;
-  justify-content: space-between;
+  align-items: center;
 }
-
-.page-adress-list {
-  display: flex;
-}
-.mail {
-  margin-left: 330px;
-  margin-right: 40px;
-}
-
 .page-logo-title1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -84,6 +72,23 @@ img {
   letter-spacing: -3%;
   color: #2e2f42;
   text-decoration: none;
+  margin-right: 76px;
+}
+.page-menu-list {
+  display: flex;
+  gap: 40px;
+} 
+
+.studio {
+  padding: 24px 0;
+}
+
+.portfolio {
+  padding: 24px 0;
+}
+
+.contacts {
+  padding: 24px 0
 }
 
 .page-menu-list a {
@@ -101,6 +106,15 @@ img {
 
 .page-menu-list a:hover {
   color: #404bbf;
+}
+
+.page-adress-list {
+  display: flex;
+  gap: 40px
+}
+.mail {
+  margin-left: 330px;
+  margin-right: 24px;
 }
 
 .page-adress-list a {
