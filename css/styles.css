@@ -7,7 +7,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
-  width: 100%;
+  width: 1440px;
 }
 
 .page-logo-title1 {
@@ -332,5 +332,5 @@ header {
 .container {
   width: 1158px;
   align-items: center;
-  margin: : o auto;
+  margin: 0 auto;
 }
