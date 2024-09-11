@@ -50,6 +50,7 @@ img {
   display: flex;
   align-items: center;
 }
+
 .page-logo-title1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -135,18 +136,6 @@ img {
   align-items: center;
 }
 
-
-
-/* 
-
-.main-title { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-} 
-*/
-
 .effect-title {
   max-width: 496px;
   height: 120px;
@@ -185,23 +174,32 @@ img {
 
 /*Second section */
 
+.second-section {
+  padding: 120px 0;
+}
 
-.second-section-list {
+.second-section h2 {
+  visibility: hidden;
+}
+
+.article-content {
   display: flex;
   list-style-type: none;
   height: 104px;
   justify-content: center;
   gap: 24px;
 }
-
-.second-section h3 {
-  width: 264px;
-  height: 24px;
+.article-list {
+  width: calc(100%-72px)/4;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: -2%;
   color: #2e2f42;
+}
+
+.title-content  {
+  margin-bottom: 8px;
 }
 
 .second-section p {
@@ -211,7 +209,6 @@ img {
   line-height: 1.5;
   letter-spacing: -2%;
   color: #434455;
-  margin-top: 8px;
 }
 
 /* Our Team */
