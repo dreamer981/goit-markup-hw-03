@@ -189,17 +189,19 @@ img {
   justify-content: center;
   gap: 24px;
 }
+
 .article-list {
   width: calc(100%-72px)/4;
+
+}
+
+.title-content  {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: -2%;
   color: #2e2f42;
-}
-
-.title-content  {
-  margin-bottom: 8px;
 }
 
 .second-section p {
