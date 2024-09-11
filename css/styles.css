@@ -170,7 +170,7 @@ img {
 }
 
 
-.first-section button:hover {
+.order-button:hover {
   background-color: #404bbf;
   cursor: pointer;
 }
