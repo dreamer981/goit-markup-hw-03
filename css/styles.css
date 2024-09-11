@@ -48,7 +48,7 @@ img {
   flex-direction: row;
 }
 
-.header-nav-menu {
+.my-page-menu {
   display: flex;
   align-items: center;
 }
@@ -79,16 +79,8 @@ img {
   gap: 40px;
 } 
 
-.studio {
+.page-navigation {
   padding: 24px 0;
-}
-
-.portfolio {
-  padding: 24px 0;
-}
-
-.contacts {
-  padding: 24px 0
 }
 
 .page-menu-list a {
