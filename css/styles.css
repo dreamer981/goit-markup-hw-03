@@ -10,6 +10,45 @@ body {
   width: 100%;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-menu {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-menu-list {
+  display: flex;
+  width: 261px;
+  height: 24px;
+  margin-left: 76px;
+  justify-content: space-between;
+}
+
+.page-adress-list {
+  display: flex;
+}
+.mail {
+  margin-left: 330px;
+  margin-right: 40px;
+}
+
 .page-logo-title1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -67,21 +106,29 @@ body {
   color: #404bbf;
 }
 
+/*First section */
+
 .first-section {
   background-color: #2e2f42;
   height: 600px;
 }
 
+.first-section {
+  padding-left: 0 auto;
+  padding-right: 0 auto;
+  padding-top: 188px;
+  align-items: center;
+}
+
 .first-section h1 {
   width: 496px;
   height: 120px;
-  top: 260px;
-  left: 472px;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: -2%;
   color: #ffffff;
+  text-align: center;
 }
 
 .first-section button {
@@ -92,12 +139,8 @@ body {
   line-height: 1.5;
   letter-spacing: -4%;
   text-align: center;
-
-  padding: 16px, 32px;
   width: 169px;
   height: 56px;
-  top: 428px;
-  left: 636px;
   border-radius: 4px;
   border: none;
   gap: 10px;
@@ -109,10 +152,16 @@ body {
   cursor: pointer;
 }
 
-.second-section li {
+/*Second section */
+
+
+.second-section-list {
+  display: flex;
   list-style-type: none;
-  width: 264px;
+  width: 1128px;
   height: 104px;
+  justify-content: center;
+  gap: 24px;
 }
 
 .second-section h3 {
@@ -135,6 +184,13 @@ body {
   margin-top: 8px;
 }
 
+/* Our Team */
+
+.our-team {
+  display: flex;
+  justify-content: space-around;
+}
+
 .third-section {
   background-color: #f4f4fd;
   height: 732px;
@@ -147,7 +203,6 @@ body {
   letter-spacing: -2%;
   text-align: center;
   color: #2e2f42;
-  padding-top: 126px;
 }
 
 .third-section li {
@@ -178,6 +233,36 @@ body {
   letter-spacing: -2%;
   text-align: center;
   color: #434455;
+}
+
+/*our portfolio*/
+
+.portfolio1 {
+  display: flex;
+  width: 1128px;
+  height: 420px;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+
+.portfolio2 {
+  display: flex;
+  width: 1128px;
+  height: 420px;
+
+  justify-content: space-between;
+}
+
+.portfolios {
+  width: 360px;
+  height: 120px;
+  text-align: left;
+  padding-top: 16px;
+  padding-left: 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .fourth-section {
@@ -219,6 +304,8 @@ body {
   margin-top: 8px;
 }
 
+/*footer*/
+
 .page-footer {
   background-color: #2e2f42;
   height: 312px;
@@ -239,98 +326,7 @@ body {
   height: 72px;
 }
 
-/*yeni düzeltme */
 
-header {
-  border-bottom: 1px solid #e7e9fc;
-}
 
-.page-menu {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
-.page-menu-list {
-  display: flex;
-  width: 261px;
-  height: 24px;
-  margin-left: 76px;
-  justify-content: space-between;
-}
 
-.page-adress-list {
-  display: flex;
-}
-.mail {
-  margin-left: 330px;
-  margin-right: 40px;
-}
-
-.first-section {
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-top: 188px;
-  text-align: center;
-}
-
-.second-section-list {
-  display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.punctuality {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.diligence {
-  margin-right: 24px;
-}
-
-.our-team {
-  display: flex;
-  justify-content: space-around;
-}
-
-.portfolio1 {
-  display: flex;
-  width: 1128px;
-  height: 420px;
-  margin-bottom: 48px;
-  justify-content: space-between;
-}
-
-.portfolio2 {
-  display: flex;
-  width: 1128px;
-  height: 420px;
-  margin-bottom: 120px;
-  justify-content: space-between;
-}
-
-.fourth-section {
-  margin-top: 120px;
-}
-
-.portfolios {
-  width: 360px;
-  height: 120px;
-  text-align: left;
-  padding-top: 16px;
-  padding-left: 16px;
-}
-
-.our-portfolio li {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-top: none;
-}
-.container {
-  width: 1158px;
-  align-items: center;
-  margin: 0 auto;
-}
