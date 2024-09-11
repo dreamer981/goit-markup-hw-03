@@ -41,15 +41,10 @@ img {
   padding: 0 15px;
 }
 
-.page-menu {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-
 .my-page-menu {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .page-logo-title1 {
