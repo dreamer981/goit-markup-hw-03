@@ -48,7 +48,7 @@ img {
   flex-direction: row;
 }
 
-.nav-menu {
+.header-nav-menu {
   display: flex;
   align-items: center;
 }
