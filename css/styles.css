@@ -14,7 +14,6 @@ body {
 section {
   padding-top: 120px;
   padding-bottom: 120px;
-  width: 100%;
 }
 
 p, h1, h2, h3, h4, h5, h6, ul {
@@ -116,6 +115,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
   background-color: #2e2f42;
   height: 600px;
   padding-top: 188px;
+  width: 100%;
 }
 
 .main-title { 
