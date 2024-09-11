@@ -11,11 +11,6 @@ body {
   align-items: center;
 }
 
-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 p,
 h1,
 h2,
@@ -221,6 +216,7 @@ img {
 .third-section {
   background-color: #f4f4fd;
   height: 732px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -280,6 +276,7 @@ img {
 
 .fourth-section {
   background-color: white;
+  padding: 120px 0;
 }
 
 .fourth-section li {
