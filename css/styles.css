@@ -210,7 +210,6 @@ img {
 
 .third-section {
   background-color: #f4f4fd;
-  height: 732px;
   padding: 120px 0;
 }
 
@@ -333,7 +332,6 @@ img {
 
 .page-footer {
   background-color: #2e2f42;
-  height: 312px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -341,7 +339,8 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-.page-footer .page-logo-title2 {
+
+.page-logo-title2 {
   color: #f4f4fd;
 }
 
