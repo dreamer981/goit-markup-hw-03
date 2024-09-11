@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 1154px;
   margin: 0 auto;
   align-items: center;
 }
@@ -34,13 +34,14 @@ p, h1, h2, h3, h4, h5, h6, ul {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  flex-direction: row;
 }
 
 .page-menu-list {
   display: flex;
-  width: 261px;
   height: 24px;
   margin-left: 76px;
+  width: 261px;
   justify-content: space-between;
 }
 
@@ -162,7 +163,6 @@ p, h1, h2, h3, h4, h5, h6, ul {
 .second-section-list {
   display: flex;
   list-style-type: none;
-  width: 1128px;
   height: 104px;
   justify-content: center;
   gap: 24px;
@@ -198,6 +198,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
 .third-section {
   background-color: #f4f4fd;
   height: 732px;
+  width: 100%;
 }
 
 .third-section h2 {
@@ -211,7 +212,6 @@ p, h1, h2, h3, h4, h5, h6, ul {
 
 .third-section li {
   list-style-type: none;
-  width: 264px;
   height: 380px;
   border-radius: 4px;
   background-color: #ffffff;
