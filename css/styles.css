@@ -162,8 +162,8 @@ img {
   padding: 120px 0;
 }
 
-.second-section h2 {
-  visibility: hidden;
+.visually-hidden {
+  display: none;
 }
 
 .article-content {
