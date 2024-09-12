@@ -47,7 +47,7 @@ img {
   flex-direction: row;
 }
 
-.page-logo-title1 {
+.page-logo-title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -55,20 +55,10 @@ img {
   line-height: 1.3;
   letter-spacing: -3%;
   color: #4d5ae5;
+  margin-right: 76px;
   text-decoration: none;
 }
 
-.page-logo-title2 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1.3;
-  letter-spacing: -3%;
-  color: #2e2f42;
-  text-decoration: none;
-  margin-right: 76px;
-}
 .page-menu-list {
   display: flex;
   gap: 40px;
